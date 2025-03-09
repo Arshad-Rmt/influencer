@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Enroll Button</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #000428, #004e92); /* Dark Blue Gradient */
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+
+        .course-image {
+            width: 60%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px #ff00ff; /* Pink Neon */
+        }
+
+        .code-box {
+            width: 50%;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff; /* White text */
+            background: linear-gradient(135deg, #ff00ff, #8000ff); /* Pink to Purple */
+            border: 2px solid #00ffff; /* Cyan Border */
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+            display: inline-block;
+            box-shadow: 0px 0px 15px cyan;
+        }
+
+        .enroll-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #ff1493, #00ffff, #ffd700); /* Pink, Cyan, Gold */
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            box-shadow: 0px 0px 15px cyan;
+            transition: 0.3s ease-in-out;
+        }
+
+        .enroll-button:hover {
+            background: linear-gradient(135deg, #ffd700, #ff1493, #00ffff);
+            box-shadow: 0px 0px 25px pink;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://assets.onecompiler.app/42vhkewhg/43b3mnh5k/AMOGHA.jpeg" alt="Course Image" class="course-image">
+        
+        <!-- Non-editable text boxes with neon glow -->
+        <div class="code-box">
+            &lt;REGISTER WITH THIS CODE&gt;
+        </div>
+        
+        <div class="code-box">
+            &lt;AMOGHA2K25_05&gt;
+        </div>
+
+        <br>
+
+        <a href="https://amogha-ripple.vercel.app/index.html" class="enroll-button">ENROLL NOW</a>
+    </div>
+</body>
+</html>
