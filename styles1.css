@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+    font-family: "Verdana", sans-serif;
+    background: linear-gradient(to bottom, #000428, #004e92); /* Dark Blue Gradient */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+}
+
+/* Image Styling */
+.course-image {
+    width: 90%; /* Increased size */
+    max-width: 700px; /* Larger max width */
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px #ff00ff; /* Pink Neon Glow */
+}
+
+/* Code Box Styling */
+.code-box {
+    width: 50%;
+    padding: 0px;
+    font-size: 20px; /* Slightly larger font */
+    font-weight: bold;
+    color: #ffffff; /* White text */
+    background: linear-gradient(135deg, #ff00ff, #8000ff); /* Pink to Purple */
+    border: 2px solid #00ffff; /* Cyan Border */
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: inline-block;
+    box-shadow: 0px 0px 15px cyan;
+}
+
+/* Gradient Line */
+.gradient-line {
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(to right, #ff1493, #00ffff, #ffd700);
+    margin: 10px auto;
+    border-radius: 3px;
+}
+
+/* Enroll Button */
+.enroll-button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 14px 28px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #ff1493, #00ffff, #ffd700); /* Pink, Cyan, Gold */
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px cyan;
+    transition: 0.3s ease-in-out;
+}
+
+.enroll-button:hover {
+    background: linear-gradient(135deg, #ffd700, #ff1493, #00ffff);
+    box-shadow: 0px 0px 25px pink;
+    transform: scale(1.08);
+}
+
+.center-box {
+    display: flex;
+    margin-top:10px ;
+    margin-bottom: 30px;
+    justify-content: center; 
+    align-items: center; 
+    height: 5vh; 
+    font-family: ""Poppins", sans-serif;
+.test-center {
+   font-family: ""Poppins", sans-serif;
+    width: 50%;
+    margin: auto;
+}
+.test{
+ text-align: center;
+ margin-top:0px ;
+ margin-bottom: 0px;
+}
+hr {
+    border: 2px solid #000428;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+
+
+
+
+
+
